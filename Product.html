@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="shortcut icon" href="https://www.lyst.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./products.css">
+  
+
+<!-- /* -----------LAST DIV SHOW MORE------------------------------------------- */ -->
+
+   
+</head>
+    <body>
+        
+   <div id="navbar">
+    <div id="topBar">
+       <div>IN - US$</div>
+       <div id="help">Help <i class="fa-solid fa-angle-down"></i></div>
+       <div><a href="alreadymember.html">Sign in</a></div>
+       <div><a href="singup.html">Join</a></div>
+    </div>
+    <div id="bottomBar">
+       <div>
+          <div><a href="index.html">LYST</a></div>
+          <div id="women" class="underline"><a href="1st.html">WOMEN</a></div>
+          <div id="men" class="underline"><a href="accessories.html">MEN</a></div>
+       </div>
+       <div id="searchBar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input id="search" type="text" placeholder='SEARCH (E.G. "VALENTINO DRESSES")'>
+       </div>
+    </div>
+ </div>
+ <!-- Modal content -->
+ <div id="helpDown">
+    <div><p><a href="help.html">Help center</a></p></div>
+    <div><p><a href="contact.html">Contact us</a></p></div>
+    <div><p><a href="">About us</a></p></div>
+    <div><p><a href="">Careers</a></p></div>
+ </div>
+ <div id="myModal">
+    <div id="left">
+       <h3>Hot right now</h3>
+       <div id="hot"></div>
+       <h3>Clothing form Top Brands</h3>
+       <div class="common" id="clothing">
+          <div id="c1" class="a"><i class="fa-solid fa-chevron-left"></i></div>
+          <div id="c2" class="b"><i class="fa-solid fa-chevron-right"></i></div>
+       </div>
+       <h3>Dresses from Top Brands</h3>
+       <div class="common" id="dresses">
+          <div id="d1" class="a"><i class="fa-solid fa-chevron-left"></i></div>
+          <div id="d2" class="b"><i class="fa-solid fa-chevron-right"></i></div>
+       </div>
+       <h3>Shoes from Top Brands</h3>
+       <div class="common" id="shoes">
+          <div id="s1" class="a"><i class="fa-solid fa-chevron-left"></i></div>
+          <div id="s2" class="b"><i class="fa-solid fa-chevron-right"></i></div>
+       </div>
+       <h3>Sneakers from Top Brands</h3>
+       <div class="common last" id="sneakers">
+          <div id="sn1" class="a"><i class="fa-solid fa-chevron-left"></i></div>
+          <div id="sn2" class="b"><i class="fa-solid fa-chevron-right"></i></div>
+       </div>
+    </div>
+    <div id="right">
+       <div>
+          <div><span id="close">&times;</span></div>
+       </div>
+       <div>
+          <div>Keep track of all your searches in one place</div>
+          <div id="rating">
+             <p>4.8</p>
+             <div id="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+             </div>
+             <p>5.4k+ Ratings</p>
+          </div>
+       </div>
+       <div>
+          <img src="https://static.lystit.com/static/n/web/react/components/send-to-app-banner/images/lyst-mobile-devices.2f5bb3f3ccb375b9007e87c578cb9c07.png" alt="">
+          <button>Download the free app</button>
+       </div>
+    </div>
+ </div>
+    <div id="head">
+            <div>MEN'S CLOTHING</div>
+        </div>
+        <div id="container">
+         <aside>
+            <div>
+                <div id="filter">
+                    <div id="btn1">Filters</div>
+                    <div id="btn2">Clear All</div>
+                </div>
+                <div id="middlediv2">
+                    <ul>
+                            <li>Men's &nbsp; <i class="fa-solid fa-xmark"></i></li>
+                            <li>Clothing &nbsp; <i class="fa-solid fa-xmark"></i></li>
+                        </ul>
+               </div>
+                <div class="multi-selector">
+                    <!-- 1 st  -->
+                        <div class="select-field">
+                              <input type="text" name="" placeholder="Gender-Man's" class="input-selector"  >
+                              <!-- <i class="fa-solid fa-location-arrow"></i> -->
+                              <span class="down-arrow"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                   <!---------List of checkboxes and options----------->
+                        <div class="list">
+                  
+                          <label for="Womens's" class="task">
+                               <input type="radio" name="radio" onclick="mymenFunction()"><a href="Product.html"></a>
+                               Men's
+                               
+                        </label>
+                          <label for="Men's" class="task">
+                               <input type="radio" name="radio" onclick="mywomenFunction()"><a href="womens.html"></a>
+                               Women's
+                              
+                        </label>
+                         
+                        </div>
+               
+    <!-----------------------------List of checkboxes and options------------------- -->             
+                <div class="select-field1">
+                    <input type="text" name="" placeholder="Category - All" id="" class="input-selector">
+                    <span class="down-arrow1"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list1">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="clothingg" value="clothingg">
+                            Clothing
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="shoess" value="shoess">
+                            Shoes
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="accessories" value="accessories">
+                            Accessories
+                    </label>
+                        <label for="Bags" class="task">
+                            <input type="radio" name="radio" id="bag" value="bag">
+                            Bags
+                    </label>
+                    <label for="Jewelry" class="task">
+                        <input type="radio" name="radio" id="jewelry" value="jewelry">
+                        Jewelry
+                    </label>
+                    <label for="Home" class="task">
+                    <input type="radio" name="radio" id="home" value="home">
+                    Home
+                    </label>
+                    </div>
+                    
+                <div class="select-field2">
+                    <input type="text" name="" placeholder="Sale" id="" class="input-selector">
+                    <span class="down-arrow2"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list2">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="onsale" value="onsale">
+                            On sale
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="onsale20" value="onsale20">
+                            20% off or more
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="onsale50" value="onsale50">
+                            50% off or more
+                    </label>
+                        <label for="Bags" class="task">
+                            <input type="radio" name="radio" id="onsale70" value="onsale70">
+                            70% off or more
+                    </label>
+                    </div>
+                    
+                <div class="select-field3">
+                    <input type="text" name="" placeholder="Shipping" id="" class="input-selector">
+                    <span class="down-arrow3"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list3">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="freeship" value="freeship">
+                            Free shipping
+                    </label>
+                    </div>
+                    
+                <div class="select-field4">
+                    <input type="text" name="" placeholder="Color" id="" class="input-selector">
+                    <span class="down-arrow4"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list4">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="black" value="black">
+                            Balck
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="brown" value="brown">
+                            Brown
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="green" value="green">
+                            Green
+                    </label>
+                        <label for="Bags" class="task">
+                            <input type="radio" name="radio" id="orange" value="orange">
+                            Ornage
+                    </label>
+                    <label for="Jewelry" class="task">
+                        <input type="radio" name="radio" id="pruple" value="pruple">
+                        Purple
+                    </label>
+                    <label for="Home" class="task">
+                    <input type="radio" name="radio" id="white" value="white">
+                    Red
+                    </label>
+                    </div>
+
+
+
+                    <div class="select-field8">
+                        <input type="text" name="" placeholder="Price" id="" class="input-selector">
+                        <span class="down-arrow5"><i class="fa-solid fa-angle-down"></i></span>
+                            </div>
+                    <!---------List of checkboxes and options----------->
+                        <div class="list8">
+                    
+                            <label for="Clothing" class="task">
+                                <input type="range" name="" id="canvas" value="canvas" min="19" max="200">
+                                Set Price(Range)
+                        </label>
+                          
+                           
+                        </div>
+
+                            
+                <div class="select-field5">
+                    <input type="text" name="" placeholder="Material" id="" class="input-selector">
+                    <span class="down-arrow5"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list5">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="canvas" value="canvas">
+                            Canvas
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="cashmere" value="cashmere">
+                            Cashmere
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="chiffon" value="chiffon">
+                            Chiffon
+                    </label>
+                    <label for="Jewelry" class="task">
+                        <input type="radio" name="radio" id="cotton" value="cotton">
+                        Cotton
+                    </label>
+                    <label for="Home" class="task">
+                    <input type="radio" name="radio" id="denim" value="denim">
+                    Denim
+                    </label>
+                    </div>
+
+                            
+                <div class="select-field6">
+                    <input type="text" name="" placeholder="Designer" id="" class="input-selector">
+                    <span class="down-arrow6"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list6">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="Bathing" value="Bathing">
+                            A Bathing Ape
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="better" value="better">
+                            A BETTER MISTAKE
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="kind" value="kind">
+                            A Kind Of Guise
+                    </label>
+                        <label for="Bags" class="task">
+                            <input type="radio" name="radio" id="apc" value="apc">
+                            A.P.C
+                    </label>
+                    <label for="Home" class="task">
+                    <input type="radio" name="radio" id="aape" value="aape">
+                    Aape
+                    </label>
+                    </div>
+                                    
+                <div class="select-field7">
+                    <input type="text" name="" placeholder="Stores" id="" class="input-selector">
+                    <span class="down-arrow7"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                <!---------List of checkboxes and options----------->
+                    <div class="list7">
+                
+                        <label for="Clothing" class="task">
+                            <input type="radio" name="radio" id="india">
+                            INDIA
+                    </label>
+                        <label for="Shoes" class="task">
+                            <input type="radio" name="radio" id="alike" value="alike">
+                            Allike
+                        
+                    </label>
+                        <label for="Accessories" class="task">
+                            <input type="radio" name="radio" id="allsaints" value="allsaints">
+                            AllSaints
+                    </label>
+                        <label for="Bags" class="task">
+                            <input type="radio" name="radio" id="paris" value="paris">
+                            Ami Paris
+                    </label>
+                    <label for="Jewelry" class="task">
+                        <input type="radio" name="radio" id="andrew" value="andrew">
+                        Andrew Marc
+                    </label>
+                    </div>
+
+            </div> 
+            </aside>
+            <div>
+                <div id="sticky">
+                    <div id="rightt">
+                        <h2>
+                            <span>31,567 Products, &nbsp;85 Stores</span>
+                        </h2>
+                        <div>
+                            <div id="rigthFilter">
+                                <select id="sortingg" onChange="sortByPrice()">
+                                    <option>Sort by recommended</option>
+                                    <option value="high">high to low</option>
+                                    <option value="low">low to high</option>    
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="middlediv">
+                        <ul>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;T-Shirt</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Activewear</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Jacket</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Shirt</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Pants</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Sweaters andKnitwear</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Short</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Jeans</li>
+                                <li><i class="fa-light fa-plus"></i> &nbsp;Underwear</li>
+                            
+                            </ul>
+                            
+                    </div>
+                </div>
+                <div id="products"></div>
+                <span id="moreCont" hidden>
+                    <div>
+                        
+                        <div id="last2">
+                            
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/mclabels/99ea9870/balenciaga-BLACK-Other-Materials-Sweatshirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$12.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/stand-out/de10a698/calvin-klein-Black-Two-Tone-Monogram-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$69.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/stand-out/3f8eecb6/lacoste-RedNavyGreen-Graphic-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$569.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/f6945a91/balenciaga-Red-Allover-Logo-Knit-Jumper.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$989.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/woodhouseclothing/bb1be6d3/lacoste-Green-Quick-Dry-Swim-Shorts.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$219.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/svmoscow/c80e3405/balenciaga-Black-7-Days-Socks-Pack-In-Black.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$659.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/gilt/919c7ef1/balenciaga-Black-Oversized-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$799.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/saksoff5th/a22438bd/nike-Claret-Geometric-Logo-Fleece-Hoodie.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$679.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/c527689c/balenciaga-Grey-Bb-Logo-Print-Zip-up-Hoodie.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$459.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/609fc92d/balenciaga-Black-Logo-Printed-Crewneck-Sweatshirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$19.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/scottsmenswear/37652fa5/boss-by-hugo-boss-blue-3-pack-Logo-Short-Sleeve-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$639.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/d188881d/balenciaga-Multi-Tartan-Jacket.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$69.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/3374d6b0/balenciaga-Black-Free-Printed-Shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$99.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/61d552ba/balenciaga-Green-Allover-Logo-Intarsia-Sweater.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$69.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/vitkac/b8766b59/balenciaga-GREY-Denim-Jacket-With-Logo.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$63.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/eraldo/56921f9e/versace-Black-Medusa-logo-Printed-Swim-Shorts.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$569.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/stefaniamode/8605716f/balenciaga-neutrals-Oversized-Logo-print-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$349.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/stefaniamode/f14f48dd/balenciaga-blue-Distressed-Effect-Knitted-Hoodie.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$89.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/8ec8556c/balenciaga-Blue-Paris-Logo-Print-Denim-Jacket.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$69.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/woodhouseclothing/9fe26463/lacoste-Grey-Live-X-Peanuts-Spilt-Organic-Cotton-Hooded-Sweatshirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$599.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/c703f2bd/balenciaga-Purple-Logo-Detailed-Drawstring-Hoodie.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$499.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/saksoff5th/4103b7df/calvin-klein-Iron-Bomber-Jacket.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$199.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/b0c15753/balenciaga-Black-Gamer-Short-sleeved-Shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$499.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                            <div>
+                                <img src="https://cdna.lystit.com/200/250/tr/photos/cettire/61173e4b/balenciaga-Yellow-Political-Campaign-T-shirt.jpeg"/>
+                                <p>Abstract Element Pattern Printed Shirts</p>
+                                <p>$699.00</p>
+                                <button class="cartbtn1">ADD TO BASKET</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </span>
+
+                <div>
+                    <p class="showing">Showing 192 of 361,276</p>
+                </div>
+                <div id="line"></div>
+                <a id="showMore">
+                    <button onclick="toggle(this)">Show more</button>
+                </a>
+                <div>
+                   <h5 id="sponser">Sponsored links</h5>
+                </div>
+                <div id="last">
+                    <div >
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRuYA19OTXL74CrptdGqKtV_BQmLIh4PSRrZC5g2TfZd-oo7R8hHB89zBUe5bMdxuSEImFeITeSqxO0WG-6YBIkN9bxoqW5SjT4jkX7C7YrGOXUziEdB1qL&usqp=CAs"/>
+                        <p>Abstract Element Pattern Printed Shirts</p>
+                        <p>699.00</p>
+                        <p>Khankudi</p>
+                        <p>▼</p>
+                        <p>Ad</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT5WwqILINWy7NbehO5CtMqkdZ2IPhMtPPNtMUehhKtxZ_habZslB6lqBOJlDm98ipjwbG4jdPzpg7IoWrlNG05uTD5D43voFc953HTHRGVKf03Fz7UV_dc&usqp=CAs"/>
+                        <p>Abstract Element Pattern Printed Shirts</p>
+                        <p>$1,960.00</p>
+                        <p>Khankudi</p>
+                        <p>▼</p>
+                        <p>Ad</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ8vwhIEyeVrkTnTP--BYWdm5p2-MDmaTyAqS7dhldGdfvmJtuNwbhBiWOX90X7jc5d4OxVepVlITAB9utmS2kRipDBG1Af0a-sKSpmJu-OC3EAP0DlVKGf&usqp=CAs"/>
+                        <p>Abstract Element Pattern Printed Shirts</p>
+                        <p>$1,800.00</p>
+                        <p>Khankudi</p>
+                        <p>▼</p>
+                        <p>Ad</p>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRuYA19OTXL74CrptdGqKtV_BQmLIh4PSRrZC5g2TfZd-oo7R8hHB89zBUe5bMdxuSEImFeITeSqxO0WG-6YBIkN9bxoqW5SjT4jkX7C7YrGOXUziEdB1qL&usqp=CAs"/>
+                        <p>Abstract Element Pattern Printed Shirts</p>
+                        <p>$699.00</p>
+                        <p>Khankudi</p>
+                        <p>▼</p>
+                        <p>Ad</p>
+                    </div>
+                </div>
+            </div>         
+        </div>
+
+<!-- Footer Div -->
+
+<div class="footerDiv">
+    <div class="footerChildDiv">
+        <div id="footerImageDiv" class="footerContentDiv">
+            <p class="heading3"> <span><img id="logo1" src="data:image/png;base64,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" alt="logo-white"></span>                    Trustpilot</p>
+            <img class="fiveRating" src="https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg" alt="Rating Pic">
+            <p class="contentReviews1">TrustScore <span>4.5</span></p><br>
+            <p class="contentReviews"><span>2,672</span>&nbsp; reviews</p><br>
+            <img class="facebook-logo" src="facebook-logo.png" alt="facebook-logo">
+            <p class="footerContent">Learn about the Lyst app for iPhone, iPad and Android.</p>
+            <p id="copyright" class="footerContent">© 2022 Lyst</p>
+        </div>
+    </div>
+    <div class="footerChildDiv">
+        <div class="footerContentDiv">
+            <p class="heading2">INTERNATIONAL</p>
+            <p class="footerContent">Lyst - AU</p>
+            <p class="footerContent">Lyst - CA</p>
+            <p class="footerContent">Lyst - UK</p>
+            <p class="footerContent">Lyst - Österreich</p>
+            <p class="footerContent">Lyst - Schweiz</p>
+            <p class="footerContent">Lyst - Deutschland</p>
+            <p class="footerContent">Lyst - España</p>
+            <p class="footerContent">Lyst - France</p>
+            <p class="footerContent">Lyst - Italia</p>
+            <p class="footerContent">Lyst - 日本</p>
+            <p class="footerContent">Lyst - België</p>
+            <p class="footerContent">Lyst - Nederland</p>
+        </div>
+        <div class="footerContentDiv">
+            <p class="heading2">HELP AND INFO</p>
+            <p class="footerContent">Help center</p>
+            <p class="footerContent">About us</p>
+            <p class="footerContent">Shipping policy</p>
+            <p class="footerContent">Returns policy</p>
+            <p class="footerContent">Payments</p>
+            <p class="footerContent">Refund policy</p>
+            <p class="footerContent">Developers</p>
+            <p class="footerContent">Careers</p>
+            <p class="footerContent">Contact</p>
+            <p class="footerContent">Terms & conditions</p>
+            <p class="footerContent">Privacy & cookie policy</p>
+            <p class="footerContent">Intellectual property</p>
+            <p class="footerContent">Categories</p>
+            <p class="footerContent">Become a partner</p>
+            <p class="footerContent">Lyst Insights</p>
+            <p class="footerContent">Lyst News</p>
+        </div>
+    </div>
+</div>
+
+<!-- temporary div -->
+
+    </div>
+    
+</body>
+</html>
+
+
+
+<!-- // <-!-----------------------------FOR--HID--AND--SHOW--START----------------------------------------------------------> -->
+
+<script src="./products.js"></script>
+
+<script>
+    var toggle = button => {
+       var element = document.getElementById("moreCont");
+       var hidden = element.getAttribute("hidden");
+      
+        if(hidden){
+            element.setAttribute("hidden", "hidden");
+        }
+        else{
+            element.removeAttribute("hidden")
+            button.innerText = "NO MORE PRODUCTS";
+        }
+    }
+
+    // ----------------------     add to cart section -------------------------
+
+function AddToCart(element){
+    cartLSdata.push(element);
+    localStorage.setItem("add-cart",JSON.stringify(cartLSdata));
+    alert("product Added Sucessfully");
+    window.location.href="mencart.html";
+}
+</script>
+
+<script src="https://kit.fontawesome.com/01d90ed8c9.js" crossorigin="anonymous"></script>
+<script src="navbar.js"></script>
+<script src="https://kit.fontawesome.com/ef3b2a94d1.js" crossorigin="anonymous"></script>

@@ -1,0 +1,77 @@
+#contact {
+  display: flex;
+}
+#lhs {
+  width: 35%;
+}
+#lhs > div {
+  width: 50%;
+  margin-left: 37.5%;
+  padding: 10% 0 0 0;
+  height: 100%;
+}
+#lhs > div > p {
+  font-size: 18px;
+  font-weight: 700;
+  border-top: 3px solid;
+  padding: 3% 0 3% 0;
+}
+#lhs > div > p:last-of-type {
+  border-bottom: 3px solid;
+}
+#rhs {
+  width: 65%;
+  margin-bottom: 5%;
+}
+#rhs > div {
+  width: 94%;
+  margin: auto;
+}
+#up {
+  font-size: 27px;
+  font-weight: 700;
+  padding: 5% 0 2% 0;
+}
+#mid > p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 5%;
+}
+#down {
+  font-size: 15px;
+  line-height: 2.5;
+}
+span {
+  text-decoration: underline;
+}
+span:hover {
+  text-decoration: none;
+}
+#down > div {
+  line-height: 1.5;
+  margin: 1% 0 2% 0;
+}
+#btn {
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid black;
+  width: 5%;
+  text-align: center;
+  padding: 0.9% 1.5%;
+  border-radius: 25px;
+  position: sticky;
+  bottom: 2%;
+  left: 90%;
+  background-color: black;
+  color: white;
+}
+#btn:hover {
+  border: 3px solid gray;
+}
+#navbar {
+  position: sticky;
+  top: -5%;
+}
+#close {
+  text-decoration: none;
+}

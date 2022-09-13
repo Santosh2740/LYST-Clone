@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+}
+h1 {
+  padding: 40px;
+  background-color: rgba(226, 225, 225, 0.541);
+}
+hr {
+  padding: 0%;
+  margin: 0%;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  text-decoration: line-through;
+}
+#box {
+  display: flex;
+}
+.bigbox {
+  display: flex;
+  margin: 45px;
+}
+#container {
+  height: 500px;
+  width: 300px;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+.pic {
+  background-color: white;
+}
+div.pic {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+.bigsort {
+  margin: 0%;
+  height: auto;
+  width: 90%;
+}
+#sortPrice {
+  border: none;
+  outline: none;
+}
+select {
+  display: flex;
+  width: 80%;
+  margin: 20px;
+}
+.button-value {
+  cursor: pointer;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  outline: none;
+  border: none;
+}
+.multi-selector {
+  width: 100%;
+}
+.select-field,
+.select-field1,
+.select-field2,
+.select-field3,
+.select-field4 {
+  border: 1px solid rgba(187, 187, 187, 0.641);
+}
+.select-field,
+.task,
+.list,
+.select-field1,
+.select-field2,
+.select-field3,
+.select-field4 {
+  background-color: white;
+  padding: 15px;
+}
+.list,
+.list1,
+.list2,
+.list3,
+.list4 {
+  box-shadow: 0 30px 60px rgb(0, 0, 0, 0.2);
+  display: none;
+}
+.down-arrow,
+.down-arrow1,
+.down-arrow2 {
+  font-size: 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.2s linear;
+  display: block;
+  float: right;
+}
+.task {
+  display: block;
+  padding-left: 20px;
+  background-color: rgb(240, 234, 234);
+}
+#clr span {
+  float: right;
+  font-size: 17px;
+  padding: 10px;
+}
+.show {
+  display: block;
+}
+.rotate180 {
+  transform: rotate(180deg);
+}
+::placeholder {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.button-value {
+  padding: 5px 5px 5px 5px;
+  color: black;
+  border: 10px solid rgb(248, 242, 242);
+  background: white;
+  font-size: 15px;
+}
+#btn {
+  display: flex;
+}
+#recom {
+  font-size: 27px;
+  width: 200px;
+  height: 40px;
+  border: 1.5px solid black;
+  margin-left: 75.7%;
+  margin-bottom: 20px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
